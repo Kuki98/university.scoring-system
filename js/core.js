@@ -34,7 +34,7 @@ $(function () {
         window.location.href = url;
     })
     $('.btn._delete').click(function (e) {
-        alert("You are about to permanently delete Client. Are you sure?")
+        alert("You are about to permanently delete Student. Are you sure?")
         e.preventDefault();
         data = "&id=" + $(this).data('id');
         if ($(this).data('url')) {
