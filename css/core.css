@@ -1,0 +1,83 @@
+body {
+    font-family: 'Exo 2', sans-serif;
+    background-color: #eee;
+}
+
+label, small {
+    margin-left: 8px;
+}
+
+.h1 {
+    font-weight: 900;
+    position: relative;
+}
+
+.btn-primary:hover {
+    background-color: #1b4a7e;
+}
+
+.btn-primary {
+    display: inline-block;
+    color: #fff;
+    background-color: #4392d7;
+    border-color: #347ebf;
+    border: 1px solid transparent;
+    transform: skew(-15deg, 0deg);
+    font-weight: 900;
+    letter-spacing: 1px;
+    width: 10%;
+}
+.error{
+    color: #c93030;
+}
+.badge{
+    font-weight: normal;
+}
+.badge.badge-red{
+    background-color: #c93030;
+    color: #fff;
+}
+.badge.badge-green, .btn.btn-green{
+    background-color: #648A3C;
+    color: #fff;
+}
+
+.badge.badge-orange{
+    background-color: #C67C2A;
+    color: #fff;
+}
+.badge.badge-blue{
+    background-color: #387fbf;
+    color: #fff;
+}
+
+
+@media screen and (min-width: 1024px) {
+    .logo {
+        height: 30px;
+        position: absolute;
+        z-index: 1;
+        left: 0;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .logo {
+        height: 30px;
+        position: static;
+        z-index: 1;
+    }
+    .h1 {
+        font-size: 22px;
+        padding-top: 30px !important;
+    }
+    .btn-primary {
+        width: 100%;
+    }
+    .form-group.col-sm-8.col-lg-4.ml-4.p-2 {
+        margin: 0 !important;
+    }
+    .img-fluid.pt-5.logoView {
+        display: none;
+    }
+}
